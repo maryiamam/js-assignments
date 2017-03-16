@@ -22,8 +22,7 @@
  *    'Sun, 17 May 1998 03:00:00 GMT+01' => Date()
  */
 function parseDataFromRfc2822(value) {
-    var countMilliseconds = Date.parse(value);
-    return countMilliseconds;
+    throw new Error('Not implemented');
 }
 
 /**
